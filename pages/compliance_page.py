@@ -11,6 +11,9 @@ class CompliancePage(BasePage):
         
     def goto_mine_details(self):
         self.page.locator(C.MINE_DETAILS).click()        
+    
+    def goto_operator_analytics(self):
+        self.page.locator(C.OPERATOR_ANALYTICS).click()      
 
     def select_company(self, value):
         self.page.get_by_role("combobox").nth(0).select_option(value)

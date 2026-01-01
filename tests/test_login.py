@@ -5,5 +5,3 @@ def test_login(page):
     login = LoginPage(page)
     login.open()
     login.login(USERNAME, PASSWORD)
-    
-    
