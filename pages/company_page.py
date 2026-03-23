@@ -3,6 +3,9 @@ from locators.company_locators import CompanyLocators as L
 from playwright.sync_api import expect
 
 class CompanyPage(BasePage):
+    
+    def navigate_to_company_list(self):
+        self.page.get_by_role("link", name="Companies").click()
         
     def verify_company_page_loaded(self):
         expect(self.page.get_by_role("heading", name=L.HEADING)).to_be_visible()

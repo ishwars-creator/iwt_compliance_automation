@@ -1,10 +1,9 @@
 from pages.login_page import LoginPage
-from pages.compliance_page import CompliancePage
 from pages.dashboard_page import dashboardpage
 from utils.config import USERNAME, PASSWORD
 
 
-def test_dashboard(page):
+def test_compliance_dashboard(page):
     login = LoginPage(page)
     login.open()  
     login.login(USERNAME, PASSWORD)

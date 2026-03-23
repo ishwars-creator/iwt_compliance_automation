@@ -6,7 +6,7 @@ import os
 
 def test_download_company_citation(page):
     login = LoginPage(page)
-    login.open()  
+    login.open()
     login.login(USERNAME, PASSWORD)
 
     comp = CompliancePage(page)
@@ -17,7 +17,5 @@ def test_download_company_citation(page):
 
     citation = CitationPage(page)
     folder = os.path.join(os.getcwd(), "download/company_citation")
-
     file_path = citation.download("company", folder)
-
     assert os.path.exists(file_path)

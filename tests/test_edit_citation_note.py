@@ -16,4 +16,4 @@ def test_edit_citation_note(page):
     comp.select_mine("111")
     comp.open_citation_notes("5104192")
     comp.fill_data_in_citation_note()
-    comp.click_save_citation_note_btn()    
+    comp.click_save_citation_note_btn()

@@ -2,6 +2,7 @@ import os
 from core.base_page import BasePage
 from playwright.sync_api import expect
 import re
+from datetime import datetime
 
 class CitationPage(BasePage):
 
@@ -12,7 +13,9 @@ class CitationPage(BasePage):
 
         download = download_info.value
         os.makedirs(folder, exist_ok=True)
-        file_path = os.path.join(folder, download.suggested_filename)
+        name, ext = os.path.splitext(download.suggested_filename)
+        timestamp = datetime.now().strftime("%Y-%m-%d_%I.%M.%S_%p")
+        file_path = os.path.join(folder, f"{name}_{timestamp}{ext}")
         download.save_as(file_path)
         return file_path
 

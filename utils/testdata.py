@@ -1,17 +1,3 @@
-# import time
-# import re
-# import random
-
-# def unique_email ():
-#     unique_suffix = int(time.time())  # current timestamp
-#     random_num = random.randint(100, 999)  # extra randomness
-#     email = f"test{unique_suffix}{random_num}@yopmail.com"
-#     return email
-
-
-# print(unique_email())
-
-
 COMPANY = {
     "sap_id": "99890",
     "name": "Lhoist Group",
@@ -28,14 +14,42 @@ COMPANY = {
 }
 
 MINE = {
-    "name": "Pioneer Portable Crusher",
+    "name": "Montevallo Quarry & Mill ",
     "address": "Washington U-Street",
-    "zip": "98786"
+    "zip": "98786",
+    "timezone": "America/Adak",
+    "state": "1",     # Alabama
+    "city": "21",     # ballplay
+    "mine_admin_firstname": "Ronald",
+    "mine_admin_lastname": "Lewis",
+    "mine_admin_email": "mineadmin9923@yopmail.com",
+    "mine_admin_confirm_email": "mineadmin9923@yopmail.com"
 }
 
-USERS = {
-    "company_first": "Ryan",
-    "company_last": "Allen",
-    "mine_first": "Ronald",
-    "mine_last": "Lewis"
+COMPANY_USERS = {
+    "corp_admin_firstname": "Alice",
+    "corp_admin_lastname": "Smith",
+    "corp_admin_email": "alice.smith@yopmail.com",
+    "corp_admin_confirm_email": "alice.smith@yopmail.com",
+    "corp_admin_role": "516",
+    
+    "corp_manager_firstname": "Bob",
+    "corp_manager_lastname": "Johnson",
+    "corp_manager_email": "bob.johnson@yopmail.com",
+    "corp_manager_confirm_email": "bob.johnson@yopmail.com",
+    
+    "mine_admin_firstname": "Charlie",
+    "mine_admin_lastname": "Brown",
+    "mine_admin_email": "charlie.brown@yopmail.com",
+    "mine_admin_confirm_email": "charlie.brown@yopmail.com",
+    
+    "mine_manager_firstname": "Diana",
+    "mine_manager_lastname": "Davis",
+    "mine_manager_email": "diana.davis@yopmail.com",
+    "mine_manager_confirm_email": "diana.davis@yopmail.com",
+
+    "mine_user_firstname": "Ethan",
+    "mine_user_lastname": "Wilson",
+    "mine_user_email": "ethan.wilson@yopmail.com",
+    "mine_user_confirm_email": "ethan.wilson@yopmail.com"
 }

@@ -4,7 +4,7 @@ from pages.citation_page import CitationPage
 from utils.config import USERNAME, PASSWORD
 import os
 
-def test_download_company_citation(page):
+def test_download_current_mine_citation(page):
     login = LoginPage(page)
     login.open()  
     login.login(USERNAME, PASSWORD)
@@ -17,7 +17,5 @@ def test_download_company_citation(page):
 
     citation = CitationPage(page)
     folder = os.path.join(os.getcwd(), "download/current_mine_citation")
-
     file_path = citation.download("current mine", folder)
-
     assert os.path.exists(file_path)

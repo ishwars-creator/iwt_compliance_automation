@@ -1,0 +1,12 @@
+0,1,2,3
+S&S Citations & Amount,,,
+Year,Quarter,Citations,Amount Paid
+2025,Q1,2,"$1,315"
+2025,Q2,13,"$29,698"
+2025,Q3,8,$0
+,,,
+Non-S&S Citations & Amount,,,
+Year,Quarter,Citations,Amount Paid
+2025,Q1,34,"$5,872"
+2025,Q2,22,"$6,607"
+2025,Q3,15,$0

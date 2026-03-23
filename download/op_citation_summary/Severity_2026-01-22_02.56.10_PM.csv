@@ -1,0 +1,25 @@
+Mine Name: 3 M Corona Plant,,,
+Severity Category,Citation Count,Total Citations,Percent (%)
+LOST_WORKDAYS_OR_RESTRICTED_DUTY,14,19,73.68
+PERMANENTLY_DISABLING,3,19,15.79
+FATAL,2,19,10.53
+,,,
+Mine Name: Wausau Plant,,,
+Severity Category,Citation Count,Total Citations,Percent (%)
+LOST_WORKDAYS_OR_RESTRICTED_DUTY,9,21,42.86
+FATAL,6,21,28.57
+NO_LOST_WORKDAYS,3,21,14.29
+PERMANENTLY_DISABLING,3,21,14.29
+,,,
+Mine Name: 3 M Little Rock Industrial Mineral Prod,,,
+Severity Category,Citation Count,Total Citations,Percent (%)
+LOST_WORKDAYS_OR_RESTRICTED_DUTY,26,35,74.29
+FATAL,4,35,11.43
+PERMANENTLY_DISABLING,5,35,14.29
+,,,
+Mine Name: Greystone Plant,,,
+Severity Category,Citation Count,Total Citations,Percent (%)
+LOST_WORKDAYS_OR_RESTRICTED_DUTY,16,21,76.19
+NO_LOST_WORKDAYS,2,21,9.52
+PERMANENTLY_DISABLING,1,21,4.76
+FATAL,2,21,9.52
